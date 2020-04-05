@@ -1,6 +1,6 @@
 
 # Huddle landing page
 
-# Part of Front-end mentor challange
+## Part of Front-end mentor challange
 
-# Technologies used: HTML, CSS, Sass, Bootstrap, Fontawesome
+## Technologies used: HTML, CSS, Sass, Bootstrap, Fontawesome
