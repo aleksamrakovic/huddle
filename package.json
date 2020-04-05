@@ -1,0 +1,21 @@
+{
+  "name": "huddle",
+  "version": "1.0.0",
+  "description": "Huddle Landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksamrakovic/huddle.git"
+  },
+  "keywords": [],
+  "author": "Aleksa Mrakovic",
+  "bugs": {
+    "url": "https://github.com/aleksamrakovic/huddle/issues"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

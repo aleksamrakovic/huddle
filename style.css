@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  background-color: #674baf;
+  background-image: url("images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  @media screen and (max-width: 768px) {
+    body {
+      background-image: url("images/bg-mobile.svg"); } }
+
+/************************Section******************************/
+.section {
+  height: 100%;
+  text-align: center; }
+  .section .heading-logo {
+    padding-top: 20px;
+    padding-bottom: 50px; }
+    .section .heading-logo img {
+      height: 50px; }
+  .section .img-holder img {
+    max-width: 100%; }
+  .section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.7;
+    margin: 40px 0 20px 0;
+    letter-spacing: 1px;
+    font-size: 26px; }
+  .section p {
+    text-align: center;
+    margin-bottom: 30px; }
+  .section a.link {
+    color: #674baf;
+    background-color: #fff;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 10px 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+    opacity: 0.8; }
+    .section a.link:hover {
+      opacity: 1;
+      transform: scale(1.1); }
+  .section .footer {
+    margin-top: 50px;
+    width: 100%; }
+    .section .footer .social-links {
+      display: flex;
+      justify-content: center; }
+    .section .footer a {
+      border: 1px solid #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      text-decoration: none; }
+      .section .footer a:hover {
+        background-color: #fff; }
+        .section .footer a:hover i {
+          color: #674baf; }
+      .section .footer a i {
+        color: #fff;
+        font-size: 16px; }
+
+@media screen and (min-width: 768px) {
+  .section {
+    display: flex;
+    align-items: center;
+    text-align: left; }
+    .section h2 {
+      font-size: 32px; }
+    .section p {
+      text-align: left; }
+    .section .footer .social-links {
+      justify-content: flex-end; } }
